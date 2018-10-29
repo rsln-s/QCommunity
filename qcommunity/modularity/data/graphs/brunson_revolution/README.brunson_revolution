@@ -1,0 +1,50 @@
+American Revolution network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the brunson_revolution network:
+
+This bipartite network contains membership information of 136 people in 5 organisations dating back to the time before the American Revolution. The list includes well-known people such as the American activist Paul Revere. Left nodes represent persons and right nodes represent organisations. An edge between a person and an organization shows that the person was a member of the organisation.
+
+
+More information about the network is provided here: 
+http://konect.uni-koblenz.de/networks/brunson_revolution
+
+Files: 
+    meta.brunson_revolution -- Metadata about the network 
+    out.brunson_revolution -- The adjacency matrix of the network in space separated values format, with one edge per line
+      The meaning of the columns in out.brunson_revolution are: 
+        First column: ID of from node 
+        Second column: ID of to node
+
+
+Complete documentation about the file format can be found in the KONECT
+handbook, in the section File Formats, available at:
+
+http://konect.uni-koblenz.de/publications
+
+All files are licensed under a Creative Commons Attribution-ShareAlike 2.0 Germany License.
+For more information concerning license visit http://konect.uni-koblenz.de/license.
+
+
+
+Use the following References for citation:
+
+@MISC{konect:2016:brunson_revolution,
+    title = {American Revolution network dataset -- {KONECT}},
+    month = sep,
+    year = {2016},
+    url = {http://konect.uni-koblenz.de/networks/brunson_revolution}
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.pdf}, 
+	url_presentation = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.presentation.pdf},
+}
+
+
